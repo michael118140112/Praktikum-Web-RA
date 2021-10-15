@@ -1,0 +1,54 @@
+.header-img {
+    width: 100%;
+    height: 500px;
+    background: url('https://www.itera.ac.id/wp-content/uploads/2021/04/cropped-pict-1.png');
+    background-size: cover;
+  }
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Arial", sans-serif;
+}
+
+.nav{
+  background-color: yellow;
+  color: red;
+  list-style: none;
+  text-align: center;
+}
+
+.nav > li {
+  display: inline-block;
+  padding: 15px;
+}
+
+.nav > li  > a {
+  text-decoration: none;
+  color: black;
+}
+
+
+section {
+  width: 50%;
+  float: left;
+  height: 500px;
+  background: rgb(255, 0, 0);
+}
+
+.right {
+  width: 50%;
+  float: right;
+  height: 300px;
+  background: red;
+  border-left: 2px solid yellow;
+  margin-top: 5%;
+}
+
+footer{
+  padding: 50px;
+  background: yellow;
+  color: black;
+
+}
+
